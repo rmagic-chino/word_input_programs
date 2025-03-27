@@ -1,12 +1,5 @@
-#define
-def main():
-
-    #input statement
-    statement = input("Enter a statement: ")
-    word_count = len(statement.split())
-    print("Output: ", word_count)
-    #print output
-
-if __name__ == "__main__":
-    main()
-#execute
+#input statement
+statement = input("Enter a statement: ")
+word_count = len(statement.split())
+print("Output: ", word_count)
+#print output
